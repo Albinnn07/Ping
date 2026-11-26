@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 MC_HOST = os.getenv("MC_HOST", "sg-sgp13.tryaltare.ai")
 MC_PORT = int(os.getenv("MC_PORT", "25207"))
-PING_INTERVAL = int(os.getenv("PING_INTERVAL", "60"))
+PING_INTERVAL = int(os.getenv("PING_INTERVAL", "20"))
 PROTOCOL_VERSION = int(os.getenv("PROTOCOL_VERSION", "767"))
 
 last_status = "Starting..."
